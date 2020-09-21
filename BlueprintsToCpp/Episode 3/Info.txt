@@ -1,1 +1,14 @@
+This video covers UFUNCTIONS in detail in Unreal c++. How it's declared, how to set specifiers and meta tags.
+The video goes through all important UFUNCTION Specifiers, like BlueprintCallable, BlueprintPure, 
+BlueprintImplementableEvent BlueprintNativeEvent and Category with detailed examples of each. 
+After the specifiers, the most usable meta tags for UFUNCTIONs are described. These are DisplayName, 
+Tooltip, ShortTooltip and HidSelfPin. Then the video talks about Function Parameters, when to use references,
+const and other posibilities and how these effect how function calls and nodes in blueprint are displayed.
+And lastly some general topics are covered like the unreal engine c++ naming conventions for function 
+and Shadowed Variables with function parameters and how to prevent shadowed variables errors. And finally the 
+tip of the day explains how to use the UPARAM(ref) Macro declared before a function parameter to be able to declare
+a non-const reference as an input parameter in blueprints.
 
+
+Functions Section of the Unreal Engine Documentation
+https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Reference/Functions/index.html
