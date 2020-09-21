@@ -1,1 +1,26 @@
 
+
+Blueprints to C++ - Episode 1 : Starting a Project - Part 1
+---------------------------------------------------------------
+
+In this Video i will create a unreal engine 4 c++ project that will be continiously used in the whole series with new 
+features added to each new episode. I will briefly cover some unreal editor settings for setting the c++ IDE of
+your choice and start creating a blueprint version of a small example that will then be later converted
+into a c++ base class. Based on that example i will show how to best create c++ classes and start 
+recreating the example blueprint script into c++, beginning with creating a c++ Actor class, adding a
+Static Mesh component to it, creating a blueprint class that inherits from our c++ class, setting the
+static mesh and placing that script into the scene. The upcoming second part will then continue converting the
+blueprint visual script that we created into c++.
+
+
+Blueprints to C++ - Episode 1 : Starting a Project - Part 2
+---------------------------------------------------------------
+
+In Part 2 of this two part Episode 1 video, we will continue were we left of, by adding variables
+to the c++ Actor class we created in the first video and implementing the functionality from the 
+example blueprint script in it's BeginPlay and Tick Function. Step by step we recreate the blueprint
+version in c++ while also covering topics like unreal naming and code structure conventions while 
+doing so. At the end of the video there is a Recap of what we did and a tip of the day showing a 
+different approach using booleans in the c++ class. This is an approach the Epic is using in the 
+unreal engine c++ game framework intensively, because it better compacts the memory layout. So look 
+forward to it at the end of the video.
