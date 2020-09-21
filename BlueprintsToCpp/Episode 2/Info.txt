@@ -1,1 +1,15 @@
 
+This video covers the UPROPERTY Macro in c++. How it's declared, how to set specifiers and meta tags.
+It also covers Basic C++ Data types, and also shows an overview of standard blueprint data types and their
+c++ equivalent. And describes the c++ datatypes that are not supported by Unreal Blueprint visual Scripting.
+After the basic introduction of the data types, the video goes through all important UPROPERTY Specifiers, like
+BlueprintReadWrite, BlueprintReadOnly, VisibleAnywhere, VisibleDefaultsOnly, VisibleInstanceOnly, EditAnywhere,
+EditDefaultsOnly, EditInstanceOnly and Category. After the specifiers, the most usable meta tags for UPROPERTYs are
+described. These are DisplayName, Tooltip, ClampMin, ClampMax and AllowPrivateAccess. And lastly some general topics
+are covered like the unreal engine c++ naming conventions for variables and Shadowed Variables when finally the 
+tip of the day explains how to use the UPROPERTY Category Specifier to create a hierarichal view of Top Categories and 
+Subcategories in the detail Panel of the Unreal Engine Editor. 
+
+
+Properties Section of the Unreal Engine Documentation
+https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Reference/Properties/index.html
