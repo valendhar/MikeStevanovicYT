@@ -28,7 +28,7 @@ void ATestActor::SetConeActorLocation()
 
 	// Vector 1
 	const float Val 				= WidthHeight + ConeActor->Speed;
-	const float AbsVal 				= UKismetMathLibrary::Abs(Val);
+	const float AbsVal 				= FMath::Abs(Val);
 	const FVector Vec1 				= ActorLocation * AbsVal;
 
 	// Vector 2
