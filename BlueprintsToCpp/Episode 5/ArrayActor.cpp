@@ -13,6 +13,65 @@ void AArrayActor::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// ARRAY ADD Elements / Arrays
+	//-------------------------------------------------------------------
+
+	TArray<FVector> Array;
+	
+	Array.Add(FVector::ZeroVector);
+
+	Array.Insert(FVector::ZeroVector,1);
+
+	VecArray.Append(Array);
+
+
+	// ARRAY NUM ELEMENTS / GET
+	//-------------------------------------------------------------------
+	
+	const int32 NumElements = VecArray.Num();
+
+	const int32 ArrayLastIndex = VecArray.Num() - 1;
+
+	FVector& Element = VecArray[0];
+	
+	
+	// ARRAY FIND / CONTAINS
+	//-------------------------------------------------------------------
+
+	// Contains
+
+	if(VecArray.Contains(FVector::ZeroVector))
+	{
+		//....
+	}
+	
+	// Find Variant 1
+	
+	const int32 Idx = VecArray.Find(FVector::ZeroVector);
+
+	if(Idx != INDEX_NONE)
+	{
+		//....
+	}
+
+	// Find Variant 2
+	
+	int32 Index;
+	if(VecArray.Find(FVector::ZeroVector,Index))
+	{
+		//....
+	}
+
+	// ARRAY REMOVE / CLEAR
+	//-------------------------------------------------------------------
+
+	VecArray.Remove(FVector::ZeroVector);
+
+	VecArray.RemoveAt(2);
+
+	VecArray.Empty();
+
+	
 
 
 	// ARRAY ITERATION
@@ -22,7 +81,9 @@ void AArrayActor::BeginPlay()
 	const int32 Num = VecArray.Num();
 
 	for(int32 i=0; i<Num; i++)
-	{	
+	{
+		FVector& Vec = VecArray[i];
+		float Val = Vec.X;
 	}
 
 	// for loop 2
@@ -54,41 +115,9 @@ void AArrayActor::BeginPlay()
 		float Val = Vec.X;
 	}
 
-	// ARRAY FIND / CONTAINS
-	//-------------------------------------------------------------------
-	
-	// Find Variant 2
-	
-	const int32 Idx = VecArray.Find(FVector::ZeroVector);
-
-	if(Idx != INDEX_NONE)
+	for(auto It = VecArray.CreateConstIterator(); It; ++It)
 	{
-		//....
+		const FVector& Vec = *It;
+		float Val = Vec.X;
 	}
-
-	// Find Variant 2
-	
-	int32 Index;
-	if(VecArray.Find(FVector::ZeroVector,Index))
-	{
-		//....
-	}
-
-	// Contains
-
-	if(VecArray.Contains(FVector::ZeroVector))
-	{
-		
-	}
-
-
-	// ARRAY REMOVE / CLEAR
-	//-------------------------------------------------------------------
-
-	VecArray.Remove(FVector::ZeroVector);
-
-	VecArray.RemoveAt(2);
-
-	VecArray.Empty();
-	
 }
