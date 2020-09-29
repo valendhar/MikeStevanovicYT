@@ -1,1 +1,9 @@
 
+UE4 - Blueprints to C++ Episode 6 - TSet Basics. 
+This short video will cover the basics of the TSet from UE4 C++ Game Framework, from function comparison with blueprint and the different iteration types you can do in unreal c++. First the video will start with an intro and outline of the video and then dive right into the comparison of TSet UE4 Blueprint and C++ function names and calls.
+
+It covers the most important blueprint function calls like Add, Add Items, Length, Contains, To Array, Remove Item, Remove Items and clear, and shows how to call these functions with c++. The TSet which is part of the Core UE4 C++ Game Framework, has some other naming conventions, or some functions are not called the same as in Blueprint. So the video will then compare TSet functions in Blueprints and C++ and show the differences in naming, and which functions don't even exist in C++.
+
+After going through the functions, the video will cover all the different Iteration Types that are possible in UE4 C++, and shows how to use these iteration types with the TSet. It will cover types , like the standard for loop, range based loops and also how to use Iterators in a for loop to iterate over the set. Then at the end in the outro it is mentioned that the next video of the UE4 Blueprints to C++ Programming series will be similar like this video and will cover the TMap collection class.
+ 
+And as a side note you can find all Slides and files for this episodes and all previous episodes of the UE4 Blueprints to C++ series on the Github Repository for this channel which link you can find down below.    
