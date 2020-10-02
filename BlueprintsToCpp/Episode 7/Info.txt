@@ -1,1 +1,11 @@
+UE4 - Blueprints to C++ Episode 7 - TMap Basics. 
+This short video will cover the basics of the TMap from the UE4 C++ Game Framework, from function comparison with blueprint and the different iteration types you can do in unreal c++. First the video will start with an intro and outline of the video and then dives right into the comparison of TMap UE4 Blueprint and C++ function names and calls.
+
+It covers the most important blueprint function calls like Add, Length, Contains, Keys, Values, Find, Remove Item and clear, and shows how to call these functions with c++. The TMap which is part of the Core UE4 C++ Game Framework, has some other naming conventions, or some functions are not called the same as in Blueprint. So the video will then compare TMap functions in Blueprints and C++ and show the differences in naming, and which functions don't even exist in C++.
+
+After going through the functions, the video will cover all the different Iteration Types that are possible in UE4 C++, and shows how to use these iteration types with the TMap. It will cover types , like the standard for loop, range based loops and also how to use Iterators in a for loop to iterate over the TMap. In the tip of the day the video will cover the Find function of a TMap 
+that has a pointer Type as a value. It goes through in an example on how to get all actors of a specific type in a scene, then adds all these to the map, and then shows how to derefence a Pointer to a Class Pointer. It also mentions the UGameplayStatics Function library, which
+is a real important library in the UE4 C++ Game Framework with lots of functionalities. Then at the end in the outro it is mentioned that the next video of the UE4 Blueprints to C++ Programming series will be similar like this video and will cover the TMap collection class.
+ 
+And as a side note you can find all Slides and files for this episodes and all previous episodes of the UE4 Blueprints to C++ series on the Github Repository for this channel which link you can find down below.    
 
