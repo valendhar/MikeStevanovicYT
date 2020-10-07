@@ -1,1 +1,11 @@
 
+UE4 - Blueprints to C++ Episode 8 - Struct Basics. 
+This short video will cover the basics of Structs in Unreal and how to create them with UE4 C++ Game Framework, from general information like what structs are and when they are used to the Tip of the Day where i show you how to make a struct work as Key Type for using it in a TMap. 
+First the video will start with an intro and outline of the video and then dive right into creating a new Struct in the UE4 Editor and implementing the base code in C++ in the IDE. It shows how to use the USTRUCT Macro, which is similar the the UCLASS Macro defined in the UE4 C++ 
+Game Framework. Adding Properties to it and testing it in a small example. Then next part will cover constructors and show them how to add and implement them in the struct. After that the video will explain what implicit and explicit in combination with constructors mean and show 
+an example about that. The next part will cover operators , especially how to add the == and != operator to the struct and show how to implement it in C++. After this i will introduce some equals function that i researched and that are used in the U4 C++ Game Framework, especially
+in struct like FVector, FRotator and so on. And at the end of the video, i will show in the tip of the day, how you can make the struct that we created in the video, be able to act as a key type for a TMap. 
+Then at the end in the outro it is mentioned that the next video of the UE4 Blueprints to C++ Programming series will be similar like this video and will cover how to create and use Enumerations with the 
+UE4 C++ Game Framework. And as a side note you can find all Slides and files for this episodes and all previous episodes of the UE4 Blueprints to C++ series on the Github Repository for this channel which link you can find down below.    
+
+-----
