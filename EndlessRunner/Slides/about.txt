@@ -1,0 +1,12 @@
+This mini series will focus on gameplay mechanics, by creating a basic game prototype using the ue4 c++ game framework.
+In this mini series i will show you how to create a basic endless runner prototype from scratch in ue4 c++. The focus of
+this series lies more on showing how to code in Unreal Engine 4 with c++ rather then creating a full endless runner game.
+Because of that we are not starting with any build in templates, like the 3rd person template, but create every little detail
+from scratch. This mini series will start by creating the project and setting it up, then setting up a character with animations 
+from scratch. After that you will create and an endless floor tile system with lane switching and add features like Obstacles and 
+Coin Collection system. After that you will Create a Main Menu, Pause and Game Over menu system and add a death and live system.
+The Ue4 c++ Gameframework features that will be taught in this series are:
+Creating Actors and Components , Overriding Parent Functions, Spawning Actors, using TSubclassOf to define Blueprint classes that 
+can be Instantiated in C++, Creating a Character Animation Blueprint with a C++ base, Input handling and collision handling in ue4 c++, 
+creating Event Handling with Custom Multicast Events and using c++ timers. Also Custom UMG UserWidgets , Widget Bindings and UI Event Handling
+will be explained as well as the ue4 c++ Game Framework functions to Pause/ Unpause and Quit the game, and Loading levels.
